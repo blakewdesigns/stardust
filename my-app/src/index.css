@@ -1,8 +1,6 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Avenir';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +8,62 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+:root {
+    /* navy */
+    --kenzie-navy: #00356b;
+
+    /* blue */
+    --kenzie-cardheader: #1f66b8;
+  
+    /* teal */
+    --kenzie-teal: #a6ffdc;
+    
+    /* blues */
+    --body-links: #3589b2;
+    --section-header: #55576a;
+  
+    /* gray */
+    --card-header: #f7f9fa;
+    --card-body: #ffffff;
+  
+    /* oranges */
+    --soft-warning: #FB7F59;
+    --hard-warning: #CC3B3B;
+  
+    --black: #000000;
+  
+   /* H1 */
+    --h1-margin: 1em 0 .5em;
+    --h1-weight: 900;
+    --h1-size: 40px;
+    --h1-letterspacing: -1.54px;
+    --h1-lineheight: 50px;
+  
+    /* H2 */
+    --h2-margin: 1em 0 .5em;
+    --h2-weight: 900;
+    --h2-size: 32px;
+    --h2-letterspacing: -1.23px;
+    --h2-lineheight: 48px;
+  
+    /* Paragraph */
+    --p-weight: 500;
+    --p-lineheight: 24px;
+    --p-size: 16px;
+  
+  /* card */
+    --card-header-text: #2F334A;
+    --card-header-padding: 20px;
+    --card-border-radius: 4px;
+    --box-shadow: 0 2px 8px 0 rgba(0,0,0,.5);
+  
+    /* form */ 
+  
+    --input-border-radius: 2px;
+    --input-margin: 6px 0 4px;
+    --input-font-weight: 500;
+    --input-font-size: 16px;
+    --input-border: 1px solid #ccc;
 }
